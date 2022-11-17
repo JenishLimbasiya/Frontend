@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ragistration form</title>
+</head>
+<body>
+    
+
+    <form method="post" action="https://www.myntra.com/"> 
+  
+     <table cellpadding="6" cellspacing="6">
+
+
+            <tr>
+                <th colspan="2"> Registration Form</th>
+            </tr>
+
+             <tr>
+
+                <td align="right"> First Name:</td>
+                <td >
+
+                    <input  type="text" name="nm" placeholder="Enter First Name" required="" pattern="[a-zA-Z]+"title="only use Alphabets">
+                </td>
+
+            </tr>
+
+            <tr>
+
+                <td align="right"> Last Name:</td>
+                <td >
+
+                    <input  type="text" name="name" placeholder="Enter Last Name" required="" pattern="[a-zA-Z]+"title="only use Alphabets">
+                </td>
+
+            </tr>
+
+           <tr>
+              <td align="right"> Gender : </td>
+              <td>
+                <label for="male">
+                <input type="radio" name="gender" id="male"> Male
+                </label> 
+                 <label for="female">
+                <input type="radio" name="gender" id="female"> female
+                </label> 
+                 <label for="other">
+                <input type="radio" name="gender" id="other"> other
+                </label> 
+                
+              </td>
+           </tr>
+            
+            <tr>
+                <td align="right">Password:</td>
+                <td>
+                    <input type="password" name="Password" required="" placeholder="enter Password">
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Email:</td>
+                <td><input type="email" name="Email" required="" placeholder="enter email id"></td>
+            </tr>
+
+            <tr>
+                <td align="right">Mobile:</td>
+                <td><input type="text" name="Mobile" required="" pattern="[0-9]{10}" title="10 digits only..!" placeholder="enter mobile no"></td>
+            </tr>
+
+            <tr> 
+
+               <td align="right">country : </td>
+               <td><select> 
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>japan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="right">Quantity:</td>
+                <td ><input type="number" name="Quantity" min="1" max="5"></td>
+            </tr>
+
+            <tr> 
+
+                <td align="right"> address : </td>
+                <td ><textarea rows="3" cols="24"></textarea></td>     
+
+            </tr>
+
+            <tr>
+                <td>Upload your Image:</td>
+                <td><input type="file" name="" multiple="" placeholder="choose Image"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="" value="Register">
+                    <input type="reset" name="" >
+                </td>
+            </tr>
+
+     </table>
+
+    </form>
+
+</body>
+</html>
