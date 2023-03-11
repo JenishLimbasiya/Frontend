@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+i {
+  font-size: 8px;
+}
+span {
+  display: inline-block;
+  width: 170px;
+  color: rgb(8, 8, 97);
+  text-align: right;
+  margin: 0 7px 0 0;
+}
+p {
+  color: rgb(8, 8, 97);
+}
+input {
+  height: 23px;
+  border: none;
+  outline: none;
+  border: 1px solid blue;
+}
+h3 {
+  color: rgba(255, 0, 0, 0.699);
+}
+.hading {
+  height: 50px;
+  width: 70%;
+  background: linear-gradient(pink, rgb(159, 198, 199), rgb(224, 190, 224));
+  margin: auto;
+  text-align: center;
+  line-height: 45px;
+  color: rgba(255, 0, 0, 0.699);
+}
+.container {
+  height: 670px;
+  width: 70%;
+  background-color: lightblue;
+  margin: auto;
+  padding: 20px 20px 0 20px;
+}
+.usermain {
+  height: 150px;
+  width: 100%;
+}
+.user_info {
+  height: 120px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0 0 0;
+}
+li {
+  margin: 0 0 7px 0;
+}
+.personal_main {
+  height: 180px;
+  width: 100%;
+}
+.subparts {
+  height: 150px;
+  display: flex;
+}
+.personal_part1 {
+  height: 100%;
+  width: 50%;
+  padding: 20px 0 0 25px;
+}
+.personal_part2 {
+  height: 100%;
+  width: 50%;
+  padding: 20px 0 0 20px;
+}
+select {
+  height: 23px;
+}
+.Account_main {
+  height: 120px;
+  width: 100%;
+}
+.account_subpart {
+  height: 90px;
+  width: 100%;
+  display: flex;
+}
+.account_part1 {
+  height: 100%;
+  width: 50%;
+  padding: 20px 0 0 25px;
+}
+.account_part2 {
+  height: 100%;
+  width: 50%;
+  padding: 20px 0 0 20px;
+}
+.declaration {
+  height: 200px;
+  width: 100%;
+}
+.buttons {
+  height: 50px;
+  width: 25%;
+  margin: 20px 0 0 350px;
+}
+.buttons input {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  margin: 0 10px 0 0;
+  background-color: rgb(13, 13, 73);
+  color: white;
+}
